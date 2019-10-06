@@ -11,7 +11,7 @@ RUN set -eux; \
 		linux/amd64) \
 			wget $(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r ".assets[] | select(.name | endswith(\"_Linux-64bit.tar.gz\")) | select(.name | contains(\"extended\") | not) | .browser_download_url") -O /tmp/hugo.tar.gz \
 		;; \
-		linux/arm) \
+		linux/arm/v7) \
 			wget $(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r ".assets[] | select(.name | endswith(\"_Linux-ARM.tar.gz\")) | select(.name | contains(\"extended\") | not) | .browser_download_url") -O /tmp/hugo.tar.gz \
 		;; \
 		linux/arm64) \
