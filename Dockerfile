@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER Mihoko-Okayami <https://hub.docker.com/r/mihokookayami/hugo/>
+LABEL maintainer="Mihoko-Okayami (https://hub.docker.com/r/mihokookayami/isso/)"
 
 ARG TARGETPLATFORM
 ENV TARGETPLATFORM "$TARGETPLATFORM"
