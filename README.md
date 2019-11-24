@@ -1,5 +1,4 @@
 ![gohugo](https://files.mihoko-okayami.fr/docker/hugo/hugo-logo.svg)  
-Github repository : https://github.com/Mihoko-Okayami/hugo  
 Official website : https://gohugo.io/  
   
 # Usage :
