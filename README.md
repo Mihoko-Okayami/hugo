@@ -1,4 +1,3 @@
-![gohugo](https://files.mihoko-okayami.fr/docker/hugo/hugo-logo.svg)  
 Official website : https://gohugo.io/  
   
 # Usage :
