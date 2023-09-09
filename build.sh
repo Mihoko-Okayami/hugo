@@ -1,3 +1,4 @@
 #!/bin/sh
 
-docker buildx build --platform=linux/amd64,linux/arm64 --push -t mihokookayami/hugo:latest .
+docker build --network host -t mihokookayami/hugo:latest -f Dockerfile .
+docker push mihokookayami/hugo:latest
