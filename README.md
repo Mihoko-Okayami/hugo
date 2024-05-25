@@ -1,6 +1,6 @@
 # Hugo ( Dockerfile )
 
-Un container Docker **AMD64** et **ARM64** sous [Alpine Linux](https://www.alpinelinux.org) empaquetant l'application [Hugo](https://gohugo.io).
+Un container Docker **AMD64** sous [Alpine Linux](https://www.alpinelinux.org) empaquetant l'application [Hugo](https://gohugo.io).
 
 ## Utilisation
 
